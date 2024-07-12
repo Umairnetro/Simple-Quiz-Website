@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+  flex-direction: column;
+}
+
+.container .heading {
+  font-size: 3rem;
+}
+
+/* Register */
+.login-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-section {
+  width: 30%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.profile img {
+  width: 100%;
+}
+
+.login-section .heading {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.login-section .heading h2 {
+  margin-bottom: 10px;
+}
+
+.login-section .heading p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+#register-form .my-input,
+#login-form .my-input {
+  margin: 20px 0;
+}
+
+#register-form .my-input label,
+#login-form .my-input label {
+  display: block;
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+
+#register-form .my-input input,
+#login-form .my-input input {
+  width: 100%;
+  background-color: #e4e4eb;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+}
+
+#register-form .btn-group,
+#login-form .btn-group {
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+#register-form .btn,
+#login-form .btn {
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+
+.login-link {
+  text-align: center;
+}
+
+/* Quiz */
+#quiz-container {
+  width: 400px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.d-none {
+  display: none;
+}
+
+/* Dashboard */
+#dashboard {
+  width: 100%;
+  height: 100vh;
+  background-color: #fcfcfc;
+  padding: 20px 0;
+}
+
+#dashboard .heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#dashboard .card-group {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+#dashboard .card {
+  width: 22%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dashboard .card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+#dashboard .card p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+#dashboard .card .btn-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+}
+
+#quiz-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e4e4eb;
+}
+
+.quiz-card #question{
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+
+.quiz-card{
+  width:30%;
+  padding:25px;
+  border-radius:8px;
+  background-color: #fcfcfc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
