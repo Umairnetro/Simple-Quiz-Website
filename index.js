@@ -231,13 +231,12 @@ if (questionElement || answerBtn) {
       showQuestion(questions[currentQuestionIndex]);
     } else {
       alert(`Your score is ${correctAnswersCount}/${questions.length}`);
-
       window.location.href = "../index.html";
     }
   };
 
   showQuiz();
 
-  let u = localStorage.getItem(JSON.stringify("users"))
-  console.log(u)
+  let u = localStorage.getItem(JSON.stringify("users"));
+  console.log(u);
 }
